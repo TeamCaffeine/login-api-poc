@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
 //        Bundle inBundle = getIntent().getExtras();
 //        String name = inBundle.get("name").toString();
 //        String surname = inBundle.get("surname").toString();
@@ -35,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
 
         shareDialog = new ShareDialog(this);
 
-        Button post = (Button)findViewById(R.id.post);
+        Button post = (Button) findViewById(R.id.post);
         post.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -49,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
 
         FacebookSdk.sdkInitialize(getApplicationContext());
 
-        Button logout = (Button)findViewById(R.id.logout);
+        Button logout = (Button) findViewById(R.id.logout);
         logout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
