@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "748093038729",
+    "project_id": "facebook-api-poc"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:748093038729:android:bb21e36d55c09bc2",
+        "android_client_info": {
+          "package_name": "com.example.megan.facebookapipoc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "748093038729-huqqbjldkpt3qoib077kqv1rnbqdi58f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.megan.facebookapipoc",
+            "certificate_hash": "7b77544cafb1f4f8c280161a5f63dee668b4ff02"
+          }
+        },
+        {
+          "client_id": "748093038729-6arnrd5c7k1l1fjic9mgs044s8gs2buh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIfi_TC9NYQfoGTT0n4kNK9i9G9-INC8o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
